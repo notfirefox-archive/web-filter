@@ -2,7 +2,6 @@ title: "notfirefox web filters"
 instances:
   - template: google-search-cleanup
     params:
-      rich-results: true
       related-questions: true
       related-searches: true
       also-search: true
