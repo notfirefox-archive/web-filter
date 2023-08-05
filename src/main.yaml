@@ -1,6 +1,7 @@
 title: "notfirefox web filters"
 instances:
   - template: google-search-cleanup
+    params:
   - template: search-results
     params:
       google: true
