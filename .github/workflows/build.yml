@@ -42,5 +42,5 @@ jobs:
         run: |
           git config --global user.name "notfirefox"
           git config --global user.email "138280734+notfirefox@users.noreply.github.com"
-          git commit -a -m "Update filter"
+          git diff-index --quiet HEAD || git commit -a -m "Update filter"
           git push
