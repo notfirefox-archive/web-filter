@@ -4,8 +4,16 @@
 ! License: https://github.com/letsblockit/letsblockit/blob/main/LICENSE.txt
 
 ! google-search-cleanup
-www.google.*###rso div.related-question-pair:upward(div[jscontroller])
-www.google.*###botstuff #bres
+
+! search-results
+www.google.*##.g:has(a[href*="instagram.com"])
+www.google.*##a[href*="instagram.com"]:upward(1)
+www.google.*##.g:has(a[href*="reddit.com"])
+www.google.*##a[href*="reddit.com"]:upward(1)
+www.google.*##.g:has(a[href*="tiktok.com"])
+www.google.*##a[href*="tiktok.com"]:upward(1)
+www.google.*##.g:has(a[href*="twitter.com"])
+www.google.*##a[href*="twitter.com"]:upward(1)
 
 ! youtube-shorts
 www.youtube.com##ytd-guide-renderer a.yt-simple-endpoint path[d^="M10 14.65v-5.3L15 12l-5 2.65zm7.77-4.33"]:upward(ytd-guide-entry-renderer)

@@ -1,4 +1,14 @@
 title: "notfirefox web filters"
 instances:
   - template: google-search-cleanup
+  - template: search-results
+    params:
+      google: true
+      sites: 
+        - instagram.com
+        - reddit.com
+        - tiktok.com
+        - twitter.com
   - template: youtube-shorts
+
+
