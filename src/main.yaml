@@ -1,0 +1,4 @@
+title: "notfirefox web filters"
+instances:
+  - template: google-search-cleanup
+  - template: youtube-shorts

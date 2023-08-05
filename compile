@@ -1,0 +1,8 @@
+#!/bin/sh
+
+RENDERER="github.com/letsblockit/letsblockit/cmd/render@latest"
+
+SOURCE="src/main.yaml"
+DESTINATION="build/main.txt"
+
+go run $RENDERER $SOURCE > $DESTINATION
