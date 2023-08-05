@@ -35,7 +35,7 @@ jobs:
 
       # Update the filter file by running cli render
       - name: Update filter file
-        run: go run github.com/letsblockit/letsblockit/cmd/render@latest src/main.yml > build/main.txt
+        run: make
 
       # Push the latest changes to the main branch
       - name: Push changes to main branch
