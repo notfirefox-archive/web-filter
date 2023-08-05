@@ -2,7 +2,7 @@
 
 RENDERER="github.com/letsblockit/letsblockit/cmd/render@latest"
 
-SOURCE="src/main.yaml"
+SOURCE="src/main.yml"
 DESTINATION="build/main.txt"
 
 go run $RENDERER $SOURCE > $DESTINATION
