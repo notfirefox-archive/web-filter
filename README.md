@@ -1,5 +1,5 @@
 # Web Filter
-Based on [letsblockit](https://github.com/letsblockit/letsblockit)
+Custom web filter for [uBlock Origin](https://github.com/gorhill/uBlock)
 
 ## Usage
 Add the following URL to your uBlock Origin filters.
