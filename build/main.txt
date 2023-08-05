@@ -4,6 +4,14 @@
 ! License: https://github.com/letsblockit/letsblockit/blob/main/LICENSE.txt
 
 ! google-search-cleanup
+www.google.*###rcnt > div:first-of-type:not([id]) > div:has(g-more-link,g-scrolling-carousel,g-img)
+www.google.*###rso:has(> div:nth-of-type(6)) > div:has(g-more-link,g-section-with-header)
+www.google.*###rso:has(> div:nth-of-type(6)) > div:has(div[role="heading"]+g-scrolling-carousel)
+www.google.*###kp-wp-tab-overview > div:has(g-more-link,g-section-with-header,#media_result_group)
+www.google.*###rso div.related-question-pair:upward(div[jscontroller])
+www.google.*###botstuff #bres
+www.google.*###rso div.g div[jscontroller][id^="eob_"]
+www.google.*##div.isv-r[data-rfg]
 
 ! search-results
 www.google.*##.g:has(a[href*="instagram.com"])
