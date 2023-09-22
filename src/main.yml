@@ -9,6 +9,7 @@ instances:
   - template: search-results
     params:
       google: true
+      duckduckgo: true
       sites: 
         - instagram.com
         - reddit.com
