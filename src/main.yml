@@ -10,6 +10,8 @@ instances:
     params:
       google: true
       duckduckgo: true
+      duckduckgo-lite: true
+      duckduckgo-html: true
       sites: 
         - instagram.com
         - reddit.com
