@@ -35,7 +35,7 @@ jobs:
 
       # Update the filter file by running cli render
       - name: Compile filters based on config
-        run: bash "${GITHUB_WORKSPACE}/compile"
+        run: ./compile
 
       # Push the latest changes to the main branch
       - name: Push changes to main branch
