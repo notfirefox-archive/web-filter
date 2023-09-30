@@ -1,0 +1,5 @@
+#!/bin/sh
+
+URL="github.com/letsblockit/letsblockit/cmd/render@latest"
+
+go run $URL src/main.yml > build/main.txt
