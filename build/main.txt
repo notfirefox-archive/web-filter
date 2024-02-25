@@ -6,6 +6,7 @@
 ! google-search-cleanup
 www.google.*###rso div.related-question-pair:upward(div[jscontroller])
 www.google.*###botstuff #bres
+## These unfurl after clicking on a result and going back to the results page
 www.google.*###rso div.g div[jscontroller][id^="eob_"]
 www.google.*###rso div.MjjYud:has(div[jsname="Cpkphb"] a[href^="/search?"])
 www.google.*##div.isv-r[data-rfg]
