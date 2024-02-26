@@ -14,7 +14,6 @@ instances:
       duckduckgo-html: true
       sites: 
         - instagram.com
-        - reddit.com
         - tiktok.com
         - twitter.com
   - template: youtube-shorts
