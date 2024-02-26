@@ -6,7 +6,7 @@
 ! google-search-cleanup
 www.google.*###rso div.related-question-pair:upward(div[jscontroller])
 www.google.*###botstuff #bres
-## These unfurl after clicking on a result and going back to the results page
+!# These unfurl after clicking on a result and going back to the results page
 www.google.*###rso div.g div[jscontroller][id^="eob_"]
 www.google.*###rso div.MjjYud:has(div[jsname="Cpkphb"] a[href^="/search?"])
 www.google.*##div.isv-r[data-rfg]
@@ -21,15 +21,6 @@ lite.duckduckgo.com##.result-link[href*="instagram.com"]:upward(tr)
 lite.duckduckgo.com##.result-link[href*="instagram.com"]:upward(tr) + tr
 lite.duckduckgo.com##.result-link[href*="instagram.com"]:upward(tr) + tr + tr
 lite.duckduckgo.com##.result-link[href*="instagram.com"]:upward(tr) + tr + tr + tr
-www.google.*##.g:has(a[href*="reddit.com"])
-www.google.*##a[href*="reddit.com"]:upward(1)
-duckduckgo.com##ol.react-results--main a[href*="reddit.com"]:upward(article)
-duckduckgo.com##.tile-wrap a[href*="reddit.com"]:upward(.tile)
-html.duckduckgo.com##.results a.result__a[href*="reddit.com"]:upward(.result)
-lite.duckduckgo.com##.result-link[href*="reddit.com"]:upward(tr)
-lite.duckduckgo.com##.result-link[href*="reddit.com"]:upward(tr) + tr
-lite.duckduckgo.com##.result-link[href*="reddit.com"]:upward(tr) + tr + tr
-lite.duckduckgo.com##.result-link[href*="reddit.com"]:upward(tr) + tr + tr + tr
 www.google.*##.g:has(a[href*="tiktok.com"])
 www.google.*##a[href*="tiktok.com"]:upward(1)
 duckduckgo.com##ol.react-results--main a[href*="tiktok.com"]:upward(article)
