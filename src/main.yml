@@ -6,16 +6,4 @@ instances:
       related-searches: true
       also-search: true
       similar-image-searches: true
-  - template: search-results
-    params:
-      google: true
-      duckduckgo: true
-      duckduckgo-lite: true
-      duckduckgo-html: true
-      sites: 
-        - instagram.com
-        - tiktok.com
-        - twitter.com
   - template: youtube-shorts
-
-
