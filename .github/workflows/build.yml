@@ -34,7 +34,7 @@ jobs:
 
       # Checks-out your repository under 
       # $GITHUB_WORKSPACE, so your job can access it
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
 
       # Update the filter file by running cli render
       - name: Compile filters based on config
