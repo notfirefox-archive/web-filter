@@ -6,4 +6,5 @@ instances:
       related-searches: true
       also-search: true
       similar-image-searches: true
+  - template: youtube-search-cleanup
   - template: youtube-shorts
