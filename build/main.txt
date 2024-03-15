@@ -11,34 +11,9 @@ www.google.*###rso div.g div[jscontroller][id^="eob_"]
 www.google.*###rso div.MjjYud:has(div[jsname="Cpkphb"] a[href^="/search?"])
 www.google.*##div.isv-r[data-rfg]
 
-! search-results
-www.google.*##.g:has(a[href*="instagram.com"])
-www.google.*##a[href*="instagram.com"]:upward(1)
-duckduckgo.com##ol.react-results--main a[href*="instagram.com"]:upward(article)
-duckduckgo.com##.tile-wrap a[href*="instagram.com"]:upward(.tile)
-html.duckduckgo.com##.results a.result__a[href*="instagram.com"]:upward(.result)
-lite.duckduckgo.com##.result-link[href*="instagram.com"]:upward(tr)
-lite.duckduckgo.com##.result-link[href*="instagram.com"]:upward(tr) + tr
-lite.duckduckgo.com##.result-link[href*="instagram.com"]:upward(tr) + tr + tr
-lite.duckduckgo.com##.result-link[href*="instagram.com"]:upward(tr) + tr + tr + tr
-www.google.*##.g:has(a[href*="tiktok.com"])
-www.google.*##a[href*="tiktok.com"]:upward(1)
-duckduckgo.com##ol.react-results--main a[href*="tiktok.com"]:upward(article)
-duckduckgo.com##.tile-wrap a[href*="tiktok.com"]:upward(.tile)
-html.duckduckgo.com##.results a.result__a[href*="tiktok.com"]:upward(.result)
-lite.duckduckgo.com##.result-link[href*="tiktok.com"]:upward(tr)
-lite.duckduckgo.com##.result-link[href*="tiktok.com"]:upward(tr) + tr
-lite.duckduckgo.com##.result-link[href*="tiktok.com"]:upward(tr) + tr + tr
-lite.duckduckgo.com##.result-link[href*="tiktok.com"]:upward(tr) + tr + tr + tr
-www.google.*##.g:has(a[href*="twitter.com"])
-www.google.*##a[href*="twitter.com"]:upward(1)
-duckduckgo.com##ol.react-results--main a[href*="twitter.com"]:upward(article)
-duckduckgo.com##.tile-wrap a[href*="twitter.com"]:upward(.tile)
-html.duckduckgo.com##.results a.result__a[href*="twitter.com"]:upward(.result)
-lite.duckduckgo.com##.result-link[href*="twitter.com"]:upward(tr)
-lite.duckduckgo.com##.result-link[href*="twitter.com"]:upward(tr) + tr
-lite.duckduckgo.com##.result-link[href*="twitter.com"]:upward(tr) + tr + tr
-lite.duckduckgo.com##.result-link[href*="twitter.com"]:upward(tr) + tr + tr + tr
+! youtube-search-cleanup
+www.youtube.com##ytd-search ytd-item-section-renderer ytd-shelf-renderer
+www.youtube.com##ytd-search ytd-item-section-renderer ytd-horizontal-card-list-renderer
 
 ! youtube-shorts
 www.youtube.com##ytd-guide-renderer a.yt-simple-endpoint path[d^="M10 14.65v-5.3L15 12l-5 2.65zm7.77-4.33"]:upward(ytd-guide-entry-renderer)
